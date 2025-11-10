@@ -1,0 +1,40 @@
+body, html {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eef2f3;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.box {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.box1 {
+  width: 100px;
+  height: 100px;
+  background: #ff6347;
+}
+
+.box2 {
+  width: 20%;
+  height: 20vh;
+  background: #4682b4;
+}
+
+.box3 {
+  width: 10em;
+  min-height: 150px;
+  max-width: 200px;
+  overflow: hidden;
+  background: #32cd32;
+}

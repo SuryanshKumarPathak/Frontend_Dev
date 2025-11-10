@@ -1,0 +1,16 @@
+a[href^="https"] {
+  color: green;
+}
+
+input[type="text"]:focus {
+  border: 2px solid blue;
+}
+
+li:nth-child(odd) {
+  background: #f0f0f0;
+}
+
+h1::before {
+  content: "★ ";
+  color: gold;
+}
