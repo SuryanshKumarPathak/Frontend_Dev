@@ -1,9 +1,7 @@
 // Q5. Weather Activity Planner
-
 let temperature = 28;
 let isRaining = false;
 let windSpeed = 10;
-
 if (isRaining) {
     console.log("Stay indoors with hot coffee.");
 } else if (temperature > 35) {

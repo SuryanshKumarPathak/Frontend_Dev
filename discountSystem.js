@@ -1,8 +1,7 @@
 // Q6. Progressive Discount System
 
-let total = 7500; // example input
+let total = 55500; 
 let discount = 0;
-
 if (total >= 10000) {
     discount = 25;
 } else if (total >= 5000) {
@@ -12,9 +11,7 @@ if (total >= 10000) {
 } else {
     discount = 0;
 }
-
 let finalPrice = total - (total * discount / 100);
-
 console.log("Original Total:", total);
 console.log("Discount Applied:", discount + "%");
 console.log("Final Price:", Math.round(finalPrice));

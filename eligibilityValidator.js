@@ -1,6 +1,6 @@
 // Q10. Citizen Eligibility Validator
 
-let age = 19;
+let age = 18;
 let isCitizen = true;
 
 if (isCitizen && age >= 18) {

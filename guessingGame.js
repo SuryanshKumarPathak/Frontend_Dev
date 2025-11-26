@@ -1,7 +1,7 @@
 // Q7. Smart Guessing Game
 
 let secret = Math.floor(Math.random() * 50) + 1;
-let userGuess = 25; // test value
+let userGuess = 25; 
 
 if (userGuess === secret) {
     console.log("Correct guess!");
